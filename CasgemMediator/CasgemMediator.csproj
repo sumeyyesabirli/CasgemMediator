@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MediatorPattern\Comaands\**" />
+    <Compile Remove="MediatorPattern\NewFolder\**" />
+    <Content Remove="MediatorPattern\Comaands\**" />
+    <Content Remove="MediatorPattern\NewFolder\**" />
+    <EmbeddedResource Remove="MediatorPattern\Comaands\**" />
+    <EmbeddedResource Remove="MediatorPattern\NewFolder\**" />
+    <None Remove="MediatorPattern\Comaands\**" />
+    <None Remove="MediatorPattern\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.20">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,6 +29,10 @@
     </PackageReference>
     <PackageReference Include="Npgsql" Version="6.0.9" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MediatorPattern\Command\" />
   </ItemGroup>
 
 </Project>
