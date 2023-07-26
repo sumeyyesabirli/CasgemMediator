@@ -1,6 +1,8 @@
 ﻿using CasgemMediator.Dal;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.Reflection;
 
 namespace CasgemMediator
 {
@@ -16,5 +18,8 @@ namespace CasgemMediator
             services.TryAddScoped<DbContext, Context>();
            
         }
+
+       
+      
     }
 }

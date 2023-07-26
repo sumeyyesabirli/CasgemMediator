@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasgemMediator", "CasgemMediator\CasgemMediator.csproj", "{D489D93D-3106-4B64-9A4A-5D82A7780594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasgemMediator", "CasgemMediator\CasgemMediator.csproj", "{D489D93D-3106-4B64-9A4A-5D82A7780594}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
